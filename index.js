@@ -11,7 +11,7 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 exerciseDog = (dogName, dogBreed) => {
   const executedRoutine = [];
-  for (const action in array) {
+  for (const action in routine) {
     executedRoutine.push(action(dogName, dogBreed));
   }
   return executedRoutine;

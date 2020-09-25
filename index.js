@@ -7,3 +7,5 @@ throwFrisbee = (dogName, dogBreed) => console.log(`Throw the frisbee for ${dog}`
 walkHome = (dogName, dogBreed) => console.log(`Walk home with ${dog}`);
 unleashDog = (dogName, dogBreed) => console.log(`Unleash ${dog}`);
 
+
+

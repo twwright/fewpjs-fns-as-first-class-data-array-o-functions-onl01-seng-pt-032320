@@ -10,10 +10,5 @@ unleashDog = (dogName, dogBreed) => console.log(`Unleash ${dog}`);
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 exerciseDog = (dogName, dogBreed) => {
-  const executedRoutine = [];
-  for (const action in routine) {
-    executedRoutine.push(action(dogName, dogBreed));
-  }
-  return executedRoutine;
+  return routine.map(action => action(dogName, dogBreed))
 }
-

@@ -1,35 +1,35 @@
-wakeDog = (dogName, dogBreed) => { 
+wakeDog = function(dogName, dogBreed) { 
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Wake ${dog}`);
   return `Wake ${dog}`;
 };
 
-leashDog = (dogName, dogBreed) => {
+leashDog = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Leash ${dog}`);
   return `Unleash ${dog}`;
 };
 
-walkToPark = (dogName, dogBreed) => {
+walkToPark = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Walk to the park with ${dog}`);
   return `Walk to the park with ${dog}`;
 };
   
   
-throwFrisbee = (dogName, dogBreed) => {
+throwFrisbee = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Throw the frisbee for ${dog}`);
   return `Throw the frisbee for ${dog}`;
 };
 
-walkHome = (dogName, dogBreed) => {
+walkHome = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Walk home with ${dog}`);
   return `Walk home with ${dog}`;
 };
 
-unleashDog = (dogName, dogBreed) => {
+unleashDog = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Unleash ${dog}`);
   return `Unleash ${dog}`;
@@ -37,6 +37,6 @@ unleashDog = (dogName, dogBreed) => {
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
-const exerciseDog = (dogName, dogBreed) => {
+const exerciseDog = function(dogName, dogBreed) {
   return routine.map(action => action(dogName, dogBreed));
 };

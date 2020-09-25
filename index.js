@@ -4,6 +4,12 @@ wakeDog = (dogName, dogBreed) => {
   return `Wake ${dog}`;
 }
 
+leashDog = (dogName, dogBreed) => {
+  let dog = `${dogName} the ${dogBreed}`;
+  console.log(`Leash ${dog}`);
+  return `Unleash ${dog}`;
+}
+
 walkToPark = (dogName, dogBreed) => {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Walk to the park with ${dog}`);

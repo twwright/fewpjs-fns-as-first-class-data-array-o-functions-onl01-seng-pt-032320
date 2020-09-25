@@ -39,4 +39,4 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 const exerciseDog = (dogName, dogBreed) => {
   return routine.map(action => action(dogName, dogBreed));
-}
+};

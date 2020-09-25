@@ -7,7 +7,7 @@ const wakeDog = function(dogName, dogBreed) {
 const leashDog = function(dogName, dogBreed) {
   let dog = `${dogName} the ${dogBreed}`;
   console.log(`Leash ${dog}`);
-  return `Unleash ${dog}`;
+  return `Leash ${dog}`;
 }
 
 const walkToPark = function(dogName, dogBreed) {
